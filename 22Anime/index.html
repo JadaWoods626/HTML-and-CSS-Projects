@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>SushiRoll</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand" href="#">SushiRoll.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Coming Soon</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catergories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Shonen</a>
+              <a class="dropdown-item" href="#">Romance</a>
+              <a class="dropdown-item" href="#">Slice of Life</a>
+              <a class="dropdown-item" href="#">Comedy</a>
+              <a class="dropdown-item" href="#">Mystery</a>
+              <a class="dropdown-item" href="#">Sports</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              The Big 3
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Original</a>
+              <a class="dropdown-item" href="#">New</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+<!--Jumbotron heading-->
+    <div class="jumbotron bg-info text-center">
+      <h1 class="display-4">Join us at Comic Con!</h1>
+      <p class="lead">We will have over 200+ booths and over 30+ voice actors from a variety of your favorite animes!
+      </p>
+      <hr class="my-4">
+      <p>It will be hosted in Jackson, Mississippi at JSU Stadium. Dates will be March 11th to March 14th.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img class="img-fluid" src="./image/thumb/5.jpg" alt=""/>
+        </div>
+
+        <div class="col-sm">
+          <h3>Anime Of Day:</h3>
+          <p>Buddy Daddies centers on a family of three who aren't related to each other:
+             Kazuki Kurusu and Rei Suwa, assassins who live under one roof; and Miri, the daughter of Kazuki and Rei's assassination
+             target who ended up being picked up by Kazuki, who she thinks is her biological father
+            Click the link below to watch.</p>
+            <a class="nave-link" href="#">Buddy Daddies</a>
+        </div>
+        <div class="col-sm">
+          <h3>Most Popular This week:</h3>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">1.My Hero Academia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">2.Black Butler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">3.Sword Art Online</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  <div class="text-center">
+    <form>
+      <h1 class="text-info my-5">Sign Up for unlimited anime!</h1>
+    <div class="form-group text-info">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <button type="button" class="btn btn-primary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Sign up by March 1st to get a free snack box
+    with your subscription.">
+      Sign Up</button>
+    </form>
+  </div>
+<!--jumbotron heading-->
+<div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+  <div class="container">
+    <h1 class="display-4 hidden-sm-down" style="color: white;font-family: sans-serif;
+    font-weight: 900; text-transform: uppercase;">Subscription Deals</h1>
+    <p class="lead">Check out our limited time deals...</p>
+    <!--Movie Deals-->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribe">Limited time offers</button>
+  </div>
+</div>
+<!--Form Modal-->
+<div class="modal fade" id="subscribe">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Subscription Details</Details></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="First Name">First Name</label>
+            <input type="first name" class="form-control" id="name1" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <label for="Last Name">Last Name</label>
+            <input type="last name" class="form-control" id="name2" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="cpassword" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Jumbotron-->
+  <div class="card-group">
+    <div class="card">
+      <img src="./image/thumb/1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">My Hero Academia</h5>
+        <p class="card-text">In a world where most people have superpowers, middle school student Izuku Midoriya is part of 20 percent of the population born without them.
+           But his dream is to become a superhero and to attend the premier Japanese school for aspiring superheroes, UA High.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <span class="badge badge-pill badge-info">Season 1</span>
+        <span class="badge badge-pill badge-info">Season 2</span>
+        <span class="badge badge-pill badge-info">Season 3</span>
+        <span class="badge badge-pill badge-info">Season 4</span>
+        <span class="badge badge-pill badge-info">Season 5</span>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./image/thumb/3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Black Butler</h5>
+        <p class="card-text">A young, orphaned boy makes a deal with the devil in exchange for his soul.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <span class="badge badge-pill badge-info">Season 1</span>
+        <span class="badge badge-pill badge-info">Season 2</span>
+        <span class="badge badge-pill badge-info">Live Action Movie</span>
+        <span class="badge badge-pill badge-info">Rare OVA 1</span>
+        <span class="badge badge-pill badge-info">Rare OVA 2</span>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./image/thumb/4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sword Art Online</h5>
+        <p class="card-text">In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <span class="badge badge-pill badge-info">Season 1</span>
+        <span class="badge badge-pill badge-info">Season 2</span>
+        <span class="badge badge-pill badge-info">Season 3</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-4">
+  <ul class="nav nav-inline">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">SushiRoll Supreme Membership</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">SushiRoll.com</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">&copy;2023 SushiRoll&reg;</a>
+    </li>
+  </ul>
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      $('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+    </script>
+  </body>
+</html>

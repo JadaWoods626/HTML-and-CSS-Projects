@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Space Resort</title>
+	<link rel="stylesheet" href="./css/styling.css"/>
+	<link rel="stylesheet" href="./css/animation.css"/>
+	<link rel="stylesheet" href="./css/lightbox.css"/>
+</head>
+
+<body>
+	<!--START NAV-->
+	<div class="wrap">
+		<div class="menu-container">
+				<ul class="menu">
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery" id="link"><li>GALLERY</li></a>
+				<a href="#contact" id="link"><li>RESERVATIONS</li></a>
+			</ul>
+	</div>
+	</div>
+	<!--END NAV-->
+
+	<!--START HOME-->
+	<div id="home">
+		<div class="container">
+				<div class="text-center">
+					<span class="head-main">Woods Art Store</span>
+				</div>
+		</div>
+	</div>
+	<!--END HOME-->
+
+	<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="./images/thumb/1.jpg" width="400" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+</div>
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <img src="./images/thumb/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <img src="./images/thumb/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <img src="./images/thumb/3.jpg" style="width:100%">
+    </div>
+  <!-- Next/previous controls -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	<!-- Caption text -->
+	<div class="caption-container">
+		<p id="caption"></p>
+	</div>
+
+	<!-- Thumbnail image controls -->
+	<div class="column">
+		<img class="demo" src="./images/thumb/1.jpg" width="100%" height="400" onclick="currentSlide(1)" alt="Canvas">
+	</div>
+
+	<div class="column">
+		<img class="demo" src="./images/thumb/2.jpg" width="100%" height="400" onclick="currentSlide(2)" alt="coloring pencils">
+	</div>
+
+	<div class="column">
+		<img class="demo" src="./images/thumb/3.jpg" width="100%" height="400" onclick="currentSlide(3)" alt="coloring book">
+	</div>
+</div>
+</div>
+
+	<!--GALLERY-->
+	<section>
+		<div id="gallery">
+			<div class="container">
+			<h1>Gallery</h1>
+			<div class="flex-container">
+
+					<!--START GALLERY BOX 1-->
+					<div class="photo-container">
+					<div class="photo">
+						<img src="./images/thumb/1.jpg" alt="mercury">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Shading on canvas</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 1-->
+
+					<!--START GALLERY BOX 2-->
+					<div class="photo-container">
+          <div class="photo">
+						<img src="./images/thumb/2.jpg" alt="venus">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Beginner Courses</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 2-->
+
+					<!--START GALLERY BOX 3-->
+					<div class="photo-container">
+          <div class="photo">
+						<img src="./images/thumb/3.jpg" alt="earth">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Kids Corner</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 3-->
+
+					<!--START GALLERY BOX 4 -->
+					<div class="photo-container">
+          <div class="photo">
+						<img src="./images/thumb/4.jpg" alt="mars">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Improving old pieces</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 4-->
+
+					<!--START GALLERY BOX 5-->
+					<div class="photo-container">
+          <div class="photo">
+						<img src="./images/thumb/5.jpg" alt="jupiter">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Intermediate Courses</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 5-->
+
+					<!--START GALLERY BOX 6-->
+					<div class="photo-container">
+          <div class="photo">
+						<img src="./images/thumb/6.jpg" alt="saturn">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Teen Corner</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 6-->
+
+					<!--START GALLERY BOX 7-->
+					<div class="photo-container">
+          <div class="photo">
+						<img src="./images/thumb/7.jpg" alt="neptune">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Advanced Courses</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 7-->
+
+					<!--START GALLERY BOX 8-->
+					<div class="photo-container">
+          <div class="photo">
+						<img src="./images/thumb/8.jpg" alt="pluto">
+						<div class="photo-overlay">
+								<h3 class="white-head">Master any medium with our daily lessons.</h3>
+							<p>Shading with pencils</p>
+						</div>
+					</div>
+					</div>
+					<!--END GALLERY BOX 8-->
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END GALLERY-->
+
+
+
+		<!--START RESERVATIONS-->
+		<section id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Reservations</h1>
+				<div class="reservation">
+					<h2>
+						<span>Learn to use any medium with ease!</span>
+					</br>Reserve your lesson today!
+					</h2>
+					<p class="rsvp-text">
+						Please provide us with basic contact information.
+					</p>
+					<div class="form-rsvp">
+						<form action="" method="post">
+				<input class="rsvp" type="text" value="" placeholder="First Name"><br>
+				<input class="rsvp" type="text" value="" placeholder="Last Name"><br>
+				<input class="rsvp" type="text" value="" placeholder="Email"><br>
+				<input class="rsvp" type="text" value="" placeholder="Phone Number"><br>
+				<div class="form-spacer">
+			<label class="terms">Terms and Conditions</label>
+			<div>
+				<div class="submit">
+				<input type="submit" value="submit" />
+			</div>
+			</form>
+		</div>
+		</div>
+		</div>
+		</div>
+		</section>
+		<!--END RESERVATIONS-->
+		<!--START FOOTER-->
+		<div>
+			www.WoodsArtStore.com &nbsp;|&nbsp; &copy; 2023
+		</div>
+		<!--END FOOTER-->
+		<script src="./js/main.js"></script>
+	</body>
+	
+	</html>
