@@ -2,8 +2,6 @@
 
 Welcome to the HTML and CSS Projects repository! This collection houses a variety of small projects and practice applications that I've developed using HTML and CSS.
 
-## Projects Overview
-
 ### SushiRoll
 SushiRoll is a project inspired by Crunchyroll, a popular anime streaming website. This project utilizes Bootstrap components such as jumbotron and navbar, alongside JavaScript, HTML, and CSS. It recreates the essence of Crunchyroll's design and functionality.
 
