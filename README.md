@@ -1,12 +1,18 @@
-# HTML-and-CSS-Projects
-Projects from the HTML and CSS course:
+# HTML and CSS Projects Repository
 
+Welcome to the HTML and CSS Projects repository! This collection houses a variety of small projects and practice applications that I've developed using HTML and CSS.
 
-*SushiRoll:
-It is basically a spinoff to crunchyroll. Crunchyroll is a streaming website for anime. It contains many Bootstrap items such as jumbotron, navbar and etc. While using Bootstrap, Javascript, HTML and CSS were used to make this project.
+## Projects Overview
 
-*Space Resort:
-Is a space hotel that can take you anywhere in the soloar system. This project contains HTML and CSS.
+### SushiRoll
+SushiRoll is a project inspired by Crunchyroll, a popular anime streaming website. This project utilizes Bootstrap components such as jumbotron and navbar, alongside JavaScript, HTML, and CSS. It recreates the essence of Crunchyroll's design and functionality.
 
-*Art Store:
-It is an example of a retail website similar to micheals. This project contains HTML and CSS.
+### Space Resort
+Experience the virtual Space Resort, a futuristic hotel capable of transporting you anywhere within the solar system. This project focuses on HTML and CSS to create an immersive space-themed environment. Explore the project's visual appeal and design elements.
+
+### Art Store
+Art Store mimics a retail website akin to stores like Michaels, showcasing a diverse range of artistic products. The project showcases HTML and CSS skills to craft an attractive and functional online store layout. Explore the interface and the arrangement of art-related items.
+
+## Purpose
+
+The HTML and CSS Projects repository is a testament to the practical application of web development skills. Each project offers a glimpse into the possibilities of design, interactivity, and layout achievable with HTML and CSS. Whether it's recreating well-known platforms, envisioning futuristic spaces, or setting up online retail environments, these projects showcase the versatility and creativity of web development technologies.
